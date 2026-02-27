@@ -4,7 +4,7 @@
 
 ---
 
-### 💡 Two Types of Typecasting
+### Two Types of Typecasting
 
 1. **Implicit (Automatic):** Python automatically converts one type to another (e.g., adding an `int` to a `float` results in a `float`).
 2. **Explicit (Manual):** The programmer manually converts a variable using built-in functions.
@@ -13,7 +13,7 @@
 
 ---
 
-### 🛠️ Built-in Conversion Functions
+### Built-in Conversion Functions
 
 | Function | Purpose | Example |
 | :--- | :--- | :--- |
@@ -24,7 +24,7 @@
 
 ---
 
-### ⚠️ Important Considerations
+### Important Considerations
 
 * **Compatibility:** Not all conversions are possible. Converting a non-numeric string (e.g., `"Hello"`) to an `int` will result in a `ValueError`.
 * **User Input:** Python `input()` always returns a string. You must typecast it if you need to perform math (e.g., `age = int(input("Age: "))`).
